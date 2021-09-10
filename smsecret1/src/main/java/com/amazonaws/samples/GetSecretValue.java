@@ -44,7 +44,7 @@ public class GetSecretValue {
         if (args.length != 0) {
         	secretName=args[0];
         }else
-        secretName = "arn:aws:secretsmanager:us-east-1:788977539026:secret:prod/test-ERrCca";
+        secretName = "arn:aws:secretsmanager:us-east-1:XXXXXXX:secret:prod/test-ERrCca";
 
         Region region = Region.US_EAST_1;
         SecretsManagerClient secretsClient = SecretsManagerClient.builder()
